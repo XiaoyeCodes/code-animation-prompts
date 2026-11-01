@@ -19,7 +19,7 @@ def main():
     data = json.loads((SKILL / "references/catalog.json").read_text(encoding="utf-8"))
     assert data["total"] == len(data["entries"]) == 341
     assert len({e["id"] for e in data["entries"]}) == 341
-    assert sum(bool(e["image"]) for e in data["entries"]) == data["with_still"] == 193
+    assert sum(bool(e["image"]) for e in data["entries"]) == data["with_still"] == 196
     for entry in data["entries"]:
         for key in ["file", "image"]:
             if entry[key]:
@@ -39,7 +39,7 @@ def main():
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
     prompt = re.search(r'```text\n(请将 https://github.com/XiaoyeCodes/code-animation-prompts.*?)(?:\n```)', readme, re.S).group(1)
     assert prompt in (ROOT / "prompts/one-click-import.md").read_text(encoding="utf-8")
-    print(f"PASS: {len(files)} original files unchanged; 341 styles; 193 stills; {checked} local links; import prompt consistent.")
+    print(f"PASS: {len(files)} original files unchanged; 341 styles; 196 stills; {checked} local links; import prompt consistent.")
 
 
 if __name__ == "__main__":

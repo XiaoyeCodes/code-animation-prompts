@@ -1,6 +1,6 @@
 {
   "total": 341,
-  "with_still": 193,
+  "with_still": 196,
   "series": [
     {
       "id": "AG",
@@ -893,7 +893,7 @@
       "fit": "",
       "tags": [],
       "file": "assets/library/风格提示词/K_卡通画风/K1_扁平矢量.md",
-      "image": ""
+      "image": "assets/library/风格提示词/K_卡通画风/K1_扁平矢量.jpg"
     },
     {
       "id": "K2",
@@ -904,7 +904,7 @@
       "fit": "",
       "tags": [],
       "file": "assets/library/风格提示词/K_卡通画风/K2_Q 版.md",
-      "image": ""
+      "image": "assets/library/风格提示词/K_卡通画风/K2_Q 版.jpg"
     },
     {
       "id": "K3",
@@ -915,7 +915,7 @@
       "fit": "",
       "tags": [],
       "file": "assets/library/风格提示词/K_卡通画风/K3_卡哇伊.md",
-      "image": ""
+      "image": "assets/library/风格提示词/K_卡通画风/K3_卡哇伊.jpg"
     },
     {
       "id": "K4",
