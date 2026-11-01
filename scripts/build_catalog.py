@@ -32,7 +32,7 @@ def main():
     catalog = dict(total=len(entries), with_still=stats["withStill"],
                    series=[dict(id=m["id"], name=m["label"], count=counts[m["id"]]) for m in raw["meta"]], entries=entries)
     (SKILL / "references/catalog.json").write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    lines = ["# 341 种风格索引", "", "从原始离线挑选器生成。点击名称阅读提示词；193 个条目附静帧，其余为文字参考。", "", "[返回 README](../README.md)", ""]
+    lines = ["# 341 种风格索引", "", "从原始离线挑选器生成。点击名称阅读提示词；196 个条目附静帧，其余为文字参考。", "", "[返回 README](../README.md)", ""]
     for series in catalog["series"]:
         lines += [f'## {series["name"]} · {series["count"]}', "", "| 编号 | 风格 | 参考 |", "|---|---|---|"]
         for e in entries:
