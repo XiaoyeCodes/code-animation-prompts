@@ -6,10 +6,10 @@
 
 **从一句创意，到一段有风格的代码动画。**
 
-341 种风格提示词 · 193 张参考静帧 · 10 个系列 · Claude Code & Codex Skill
+341 种风格提示词 · 196 张参考静帧 · 10 个系列 · Claude Code & Codex Skill
 
 [![Styles](https://img.shields.io/badge/styles-341-b7f47b?style=flat-square&labelColor=161d28)](docs/STYLES.md)
-[![Stills](https://img.shields.io/badge/reference_stills-193-86b7ff?style=flat-square&labelColor=161d28)](docs/images/style-gallery.png)
+[![Stills](https://img.shields.io/badge/reference_stills-196-86b7ff?style=flat-square&labelColor=161d28)](docs/images/style-gallery.png)
 [![Skill](https://img.shields.io/badge/Agent_Skill-Claude_Code_%26_Codex-e6ceaa?style=flat-square&labelColor=161d28)](skills/code-animation-prompts/SKILL.md)
 [![Sharing](https://img.shields.io/badge/sharing-free-ecb7cc?style=flat-square&labelColor=161d28)](LICENSE.md)
 
@@ -23,7 +23,7 @@
 
 ![12 种风格的真实参考静帧](docs/images/style-gallery.png)
 
-以上图片来自素材包自带的参考静帧，编号与提示词一一对应。**193 种有图，148 种为文字参考**；静帧展示视觉方向，实际动画取决于内容、实现和渲染结果。
+以上图片来自素材包自带的参考静帧，编号与提示词一一对应。**196 种有图，145 种为文字参考**；静帧展示视觉方向，实际动画取决于内容、实现和渲染结果。
 
 | 想做什么 | 可以从这里开始 |
 |---|---|

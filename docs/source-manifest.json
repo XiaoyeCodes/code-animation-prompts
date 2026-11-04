@@ -1,9 +1,8 @@
 {
-  "source": "代码动画_341种风格提示词_免费 / 代码动画",
-  "file_count": 555,
   "algorithm": "sha256",
+  "file_count": 558,
   "files": {
-    "_统计.json": "8902bdf277a34c7722b01e5bb066dd7439ca08617e1f230804d6d02a08cea973",
+    "_统计.json": "2136719bfbb16b2c3f1ad122b1ebf9fca215497da468786e1a604a7e9191085e",
     "示例/B6_光速穿梭·爆炸·重聚_同一份提示词/DeepSeek-V4.1-Flash_High.html": "0b39d9b4a187ccd0d77966e9ba348606bd2086f4131ebd2bbfce1c12293e989a",
     "示例/B6_光速穿梭·爆炸·重聚_同一份提示词/DeepSeek-V4.1-Flash_High.mp4": "bba1c0b1bdedc743cea27ed4b40f1e21c996540e0c2e2db68911c5664a9d6df1",
     "示例/B6_光速穿梭·爆炸·重聚_同一份提示词/Opus5.5_High.html": "e5b0e47a5fcee6c224b24ec19464a66ed9ae2f121211da3bc87430981d4e67cb",
@@ -17,13 +16,12 @@
     "示例/X7_英雄漫画_只给一句话/ink-and-thunder.mp4": "b2d481ce691c8b801df9cac86586b023bc995583bd610516f1e7dc7cbbbe5f14",
     "示例/X7_英雄漫画_只给一句话/截图_DeepSeek做漫画的对话.png": "f9c48f60d8886845b445fd47debd6c153051e427a39c48047b1d322dbc521b09",
     "示例/X7_英雄漫画_只给一句话/提示词.md": "f7f14a49374d6d1bfc16c6dd643826d47895359f196ce1c53f8e2b92a44f5662",
-    "第三方许可/code-video_LICENSE.txt": "38050e030189620748dd7422344af0af619c581b4321d9f8eaff18658b799bf2",
     "第三方许可/Lemo-Opuscar_LICENSE.txt": "18db4b0ec569066299dd4a249fd8b3932dc60586c53e7e9ada49679a5f1b970b",
+    "第三方许可/code-video_LICENSE.txt": "38050e030189620748dd7422344af0af619c581b4321d9f8eaff18658b799bf2",
     "第三方许可/mg-styles-15_LICENSE.txt": "3422943eb405f1a8d2c7378d894100de5d522049bd407d41305b138253571974",
     "许可与来源.md": "d0f12e3110020ebc42455960021070c3e46d2f0e93434e4eb2b84cf9e18906c9",
-    "说明.md": "8478d9e0bfdc9fa12d26ad454cb2be33f3498744a815bc3c5511f8dc50959971",
-    "风格挑选.html": "2175fec5e551814947fad965866747ec0527dd62bb4730bf2fc4fec7360e8490",
-    "风格提示词/A-G_代码样片/_公共函数.js": "7d06fa480b1c0e3ed3cb2e0df5cf4fd9d5707227530d455e98fda56d6733d198",
+    "说明.md": "e3040e2f81c5bedbcf5889bed7697a6979640efda386f4f3762391c4c01c39d0",
+    "风格挑选.html": "551c6569366596b7dad3c392f35273f8d30963bf38569c9ebf5b8548654dd324",
     "风格提示词/A-G_代码样片/A1_字雨.jpg": "4502e6f1f2e7a06e61302f0b2f5a8a2ec70078029c0c3e003690043ae8941290",
     "风格提示词/A-G_代码样片/A1_字雨.md": "123981cfe82263faf3e6688cb77907a105d9117e9efe9e37df088ccf1c45d204",
     "风格提示词/A-G_代码样片/A2_光标打字.jpg": "161c583712783a0f57f8153d36be471337a7a4a9e38d171890681cb29b08a381",
@@ -76,6 +74,7 @@
     "风格提示词/A-G_代码样片/G1_老胶片.md": "21b5f0dd092282d4c28e88cdbfc35a1aad8c78150ec554b0a155c9da074b602e",
     "风格提示词/A-G_代码样片/G2_信号故障.jpg": "37617f38b71d8c163ee86d09d5632d5e9d1da9c539afec7b3ce160e0c696c2e9",
     "风格提示词/A-G_代码样片/G2_信号故障.md": "b30468ceaf41799c88d15fea2b45a848dfb1da5560f359db5717b63e3ca459bf",
+    "风格提示词/A-G_代码样片/_公共函数.js": "7d06fa480b1c0e3ed3cb2e0df5cf4fd9d5707227530d455e98fda56d6733d198",
     "风格提示词/H_现成版式/H10_Creative Mode.md": "b940fc55f995be713ca10672c04d8ac74248ba9e47f716dfce0efadac4d6c68f",
     "风格提示词/H_现成版式/H11_Daisy Days.md": "1eb37a3330e3632ca92bdca3e4160fdedd1126c3a4f5e57c049004ea40d21fac",
     "风格提示词/H_现成版式/H12_Editorial Forest.md": "69e0a8ca40a52e2fdf866f1f6cef05d96ddacc6ca61bd343c13cadf63a34ee69",
@@ -99,6 +98,7 @@
     "风格提示词/K_卡通画风/K17_几何.md": "11eefa798c11288e59f94008e68c82543bae7ef2904d96bd9f6e0028271256e3",
     "风格提示词/K_卡通画风/K18_水彩.md": "d137987a34cc918a4a8fcaf92f91bd2f1764a728ca0cc7555d920b32d57a56c7",
     "风格提示词/K_卡通画风/K19_厚涂.md": "9fc0bdbccae55aae6b05d51e62870ab749edcecd707cc69161166f505cc641db",
+    "风格提示词/K_卡通画风/K1_扁平矢量.jpg": "7ebf11524fdbc041d5e066eeac6256e6bce5764b1a6fccadc047564a4d826a62",
     "风格提示词/K_卡通画风/K1_扁平矢量.md": "2008666adc1b07b5bbfa2a9bb10b547336a30bab83c27b2b2bd37637b98b02b2",
     "风格提示词/K_卡通画风/K20_剪纸.md": "209e814ede6b8086bb6149c329ca82635ca8e5e9b9d4997befe4d6c79f99380c",
     "风格提示词/K_卡通画风/K21_手工纸艺.md": "f73148119922eaaea87e657ae6c58d2819478232a8fef410e933f89bbe0bbe3e",
@@ -110,6 +110,7 @@
     "风格提示词/K_卡通画风/K27_低多边形.md": "20ae86d4037c8d0da97184c2dc6e7f43f464c2ed8b114ceb1a4b1449a8f9b7f3",
     "风格提示词/K_卡通画风/K28_像素.md": "da346f43b0af0b5cf138301b5b157386c78726aafeb0a8dae35b793cf304d476",
     "风格提示词/K_卡通画风/K29_蓝图.md": "3c5ee24f5ee12d70a50769af6d7f20f51f97a6984c64aa6ce4acdf5249e79361",
+    "风格提示词/K_卡通画风/K2_Q 版.jpg": "3ea414e0a4888e2f6dd0598e4ca7b857816261157aabd3092ba0fa45d1c2bc4f",
     "风格提示词/K_卡通画风/K2_Q 版.md": "cce91700945f679f58d9086d032f2a22e90fc055bcae64868dccfc03818b1077",
     "风格提示词/K_卡通画风/K30_说明书线稿.md": "b11627fe9c965bc8d7389e8ccbe48181c05dbec8bbd0b17ac9725a433e410dce",
     "风格提示词/K_卡通画风/K31_平铺整理.md": "420e0cba69c14e5e77a086ba3242aa0957986ebfb717e2aff2d41d5ae8fa5ba7",
@@ -120,6 +121,7 @@
     "风格提示词/K_卡通画风/K36_丝网印刷.md": "ba21393874cd9c42b3952c65a5f13512eb423bb26ce643f47c4bf7803b74c9df",
     "风格提示词/K_卡通画风/K37_哥特.md": "9ca50c96450ff6c0622b967cb7d96bf77b46ae85a49d8f8a6940a31d6c52a7de",
     "风格提示词/K_卡通画风/K38_情景喜剧.md": "80fe39c35a4a926e7a3a12ad70cff6d54d4a5ca1a6487cfb3e63a3579e384a90",
+    "风格提示词/K_卡通画风/K3_卡哇伊.jpg": "1b38796d9dd6b6da4ac762bb4cab378622d6e4a8bb3e34406a5a5b4498f7e499",
     "风格提示词/K_卡通画风/K3_卡哇伊.md": "a1c83c0b408ff224ddef6af703b7c00651a0a3756824593d8cba83161013bc1d",
     "风格提示词/K_卡通画风/K4_极简线条小人.md": "e5c6ad571f54186dd79cebf6553516ffb1c425d90850340abec9b960426e81e3",
     "风格提示词/K_卡通画风/K5_孟菲斯扁平人.md": "95d8d589c1493067c94ec3aab5ab65def00520a140f77dc0af2ac640c0429614",
@@ -558,5 +560,6 @@
     "风格提示词/Z_中国风/Z7_皮影.md": "4337ed3d97133c9e5d133c3f1c16aeecb0c0472c71c4dbc70547a4ed5e36dd0d",
     "风格提示词/Z_中国风/Z8_敦煌.md": "db482af36f29bbe820ac52066949a1e7804ab242a897f29b1d736da14a161eb9",
     "风格提示词/Z_中国风/Z9_青花.md": "b12952febf66a08c0dc426097b8d312cd5e4411bc2375ee5933e1055cc919cd9"
-  }
+  },
+  "source": "代码动画_341种风格提示词_免费 / 代码动画"
 }

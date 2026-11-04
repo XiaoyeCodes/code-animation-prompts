@@ -1,6 +1,6 @@
 # 341 种风格索引
 
-从原始离线挑选器生成。点击名称阅读提示词；193 个条目附静帧，其余为文字参考。
+从原始离线挑选器生成。点击名称阅读提示词；196 个条目附静帧，其余为文字参考。
 
 [返回 README](../README.md)
 
@@ -84,9 +84,9 @@
 
 | 编号 | 风格 | 参考 |
 |---|---|---|
-| K1 | [扁平矢量](../skills/code-animation-prompts/assets/library/%E9%A3%8E%E6%A0%BC%E6%8F%90%E7%A4%BA%E8%AF%8D/K_%E5%8D%A1%E9%80%9A%E7%94%BB%E9%A3%8E/K1_%E6%89%81%E5%B9%B3%E7%9F%A2%E9%87%8F.md) | 文字参考 |
-| K2 | [Q 版](../skills/code-animation-prompts/assets/library/%E9%A3%8E%E6%A0%BC%E6%8F%90%E7%A4%BA%E8%AF%8D/K_%E5%8D%A1%E9%80%9A%E7%94%BB%E9%A3%8E/K2_Q%20%E7%89%88.md) | 文字参考 |
-| K3 | [卡哇伊](../skills/code-animation-prompts/assets/library/%E9%A3%8E%E6%A0%BC%E6%8F%90%E7%A4%BA%E8%AF%8D/K_%E5%8D%A1%E9%80%9A%E7%94%BB%E9%A3%8E/K3_%E5%8D%A1%E5%93%87%E4%BC%8A.md) | 文字参考 |
+| K1 | [扁平矢量](../skills/code-animation-prompts/assets/library/%E9%A3%8E%E6%A0%BC%E6%8F%90%E7%A4%BA%E8%AF%8D/K_%E5%8D%A1%E9%80%9A%E7%94%BB%E9%A3%8E/K1_%E6%89%81%E5%B9%B3%E7%9F%A2%E9%87%8F.md) | [静帧](../skills/code-animation-prompts/assets/library/%E9%A3%8E%E6%A0%BC%E6%8F%90%E7%A4%BA%E8%AF%8D/K_%E5%8D%A1%E9%80%9A%E7%94%BB%E9%A3%8E/K1_%E6%89%81%E5%B9%B3%E7%9F%A2%E9%87%8F.jpg) |
+| K2 | [Q 版](../skills/code-animation-prompts/assets/library/%E9%A3%8E%E6%A0%BC%E6%8F%90%E7%A4%BA%E8%AF%8D/K_%E5%8D%A1%E9%80%9A%E7%94%BB%E9%A3%8E/K2_Q%20%E7%89%88.md) | [静帧](../skills/code-animation-prompts/assets/library/%E9%A3%8E%E6%A0%BC%E6%8F%90%E7%A4%BA%E8%AF%8D/K_%E5%8D%A1%E9%80%9A%E7%94%BB%E9%A3%8E/K2_Q%20%E7%89%88.jpg) |
+| K3 | [卡哇伊](../skills/code-animation-prompts/assets/library/%E9%A3%8E%E6%A0%BC%E6%8F%90%E7%A4%BA%E8%AF%8D/K_%E5%8D%A1%E9%80%9A%E7%94%BB%E9%A3%8E/K3_%E5%8D%A1%E5%93%87%E4%BC%8A.md) | [静帧](../skills/code-animation-prompts/assets/library/%E9%A3%8E%E6%A0%BC%E6%8F%90%E7%A4%BA%E8%AF%8D/K_%E5%8D%A1%E9%80%9A%E7%94%BB%E9%A3%8E/K3_%E5%8D%A1%E5%93%87%E4%BC%8A.jpg) |
 | K4 | [极简线条小人](../skills/code-animation-prompts/assets/library/%E9%A3%8E%E6%A0%BC%E6%8F%90%E7%A4%BA%E8%AF%8D/K_%E5%8D%A1%E9%80%9A%E7%94%BB%E9%A3%8E/K4_%E6%9E%81%E7%AE%80%E7%BA%BF%E6%9D%A1%E5%B0%8F%E4%BA%BA.md) | 文字参考 |
 | K5 | [孟菲斯扁平人](../skills/code-animation-prompts/assets/library/%E9%A3%8E%E6%A0%BC%E6%8F%90%E7%A4%BA%E8%AF%8D/K_%E5%8D%A1%E9%80%9A%E7%94%BB%E9%A3%8E/K5_%E5%AD%9F%E8%8F%B2%E6%96%AF%E6%89%81%E5%B9%B3%E4%BA%BA.md) | 文字参考 |
 | K6 | [清线漫画](../skills/code-animation-prompts/assets/library/%E9%A3%8E%E6%A0%BC%E6%8F%90%E7%A4%BA%E8%AF%8D/K_%E5%8D%A1%E9%80%9A%E7%94%BB%E9%A3%8E/K6_%E6%B8%85%E7%BA%BF%E6%BC%AB%E7%94%BB.md) | 文字参考 |
