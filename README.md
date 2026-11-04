@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/images/promo.gif" alt="Code Animation Prompts — 24.5 秒完整宣传片，341 种代码动画风格" width="100%">
+<img src="docs/images/promo-hq.gif" alt="Code Animation Prompts — 24.5 秒完整宣传片，341 种代码动画风格" width="100%">
 
 # Code Animation Prompts
 
