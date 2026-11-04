@@ -31,8 +31,8 @@ def main():
     assert counts == stats["bySeries"]
     catalog = dict(total=len(entries), with_still=stats["withStill"],
                    series=[dict(id=m["id"], name=m["label"], count=counts[m["id"]]) for m in raw["meta"]], entries=entries)
-    (SKILL / "references/catalog.json").write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    lines = ["# 341 种风格索引", "", "从原始离线挑选器生成。点击名称阅读提示词；196 个条目附静帧，其余为文字参考。", "", "[返回 README](../README.md)", ""]
+    (SKILL / "references/catalog.json").write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
+    lines = [f"# {catalog['total']} 种风格索引", "", f"从离线挑选器生成。点击名称阅读提示词；{catalog['with_still']} 个条目附静帧，其余为文字参考。", "", "[返回 README](../README.md)", ""]
     for series in catalog["series"]:
         lines += [f'## {series["name"]} · {series["count"]}', "", "| 编号 | 风格 | 参考 |", "|---|---|---|"]
         for e in entries:
@@ -43,7 +43,7 @@ def main():
                 lines.append(f'| {e["id"]} | [{name}]({quote(link + e["file"])}) | {shot} |')
         lines.append("")
     (ROOT / "docs").mkdir(exist_ok=True)
-    (ROOT / "docs/STYLES.md").write_text("\n".join(lines), encoding="utf-8")
+    (ROOT / "docs/STYLES.md").write_text("\n".join(lines), encoding="utf-8", newline="\n")
     print(f"Validated {len(entries)} styles and {stats['withStill']} stills.")
 
 

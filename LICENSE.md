@@ -1,6 +1,6 @@
 # 来源、许可与免费分享约定
 
-本仓库整理并封装了用户提供的「代码动画_341种风格提示词_免费」素材包。素材位于 [`skills/code-animation-prompts/assets/library/`](skills/code-animation-prompts/assets/library)，保留原始文件内容及名称。
+本仓库整理并封装了用户提供的「代码动画_341种风格提示词_免费」素材包。素材位于 [`skills/code-animation-prompts/assets/library/`](skills/code-animation-prompts/assets/library)，保留原始提示词、示例、说明与许可；为接入社区素材而修改的挑选器、统计及新增文件，在技能内的 [变更清单](skills/code-animation-prompts/references/library-changes.json) 单独登记。原包的 SHA-256 基线保留在 [source-manifest.json](docs/source-manifest.json)。
 
 ## 原素材的分享约定
 
@@ -28,5 +28,6 @@
 
 - **原始素材整理者**：哔哩哔哩 [**俯仰观照**](https://space.bilibili.com/3690990015613855/?spm_id_from=333.788.upinfo.detail.click)，感谢其资源分享；保留原包中的说明与署名。
 - **技能封装与仓库维护**：[XiaoyeCodes](https://github.com/XiaoyeCodes)。
+- **社区参考图**：K1 扁平矢量、K2 Q 版、K3 卡哇伊由 **Strange Leo (@strangeyu911-tech)** 在 [PR #1](https://github.com/XiaoyeCodes/code-animation-prompts/pull/1) 提供。三张为新增说明卡，不归入原包作者作品；本次保留原投稿 JPEG，未包含作者所述的 SVG 源文件。
 - **README 预览**：基于原包静帧、挑选器及示例视频制作，相关素材权利和来源保持不变。
 - **模型标注**：原始示例文件名中的模型名称沿用原包，仅为来源记录，不代表本仓库另行验证或官方背书。

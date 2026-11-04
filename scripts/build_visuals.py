@@ -1,4 +1,5 @@
 """Render README artwork from the real bundled stills and picker with Playwright."""
+import argparse
 import html
 import json
 import subprocess
@@ -12,9 +13,18 @@ BUILD = ROOT / ".build"
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--browser-channel", help="Use an installed browser, e.g. chrome or msedge")
+    parser.add_argument("--skip-video", action="store_true", help="Refresh PNGs without regenerating the unchanged GIF")
+    args = parser.parse_args()
     OUT.mkdir(parents=True, exist_ok=True)
     BUILD.mkdir(exist_ok=True)
-    entries = json.loads((SKILL / "references/catalog.json").read_text(encoding="utf-8"))["entries"]
+    catalog = json.loads((SKILL / "references/catalog.json").read_text(encoding="utf-8"))
+    entries = catalog["entries"]
+    total = len(entries)
+    with_still = sum(bool(e["image"]) for e in entries)
+    text_only = total - with_still
+    series_count = len(catalog["series"])
     by_id = {e["id"]: e for e in entries}
 
     def card(id):
@@ -29,14 +39,14 @@ def main():
     h1{{font-size:76px;line-height:1.02;letter-spacing:-3px;margin:27px 0 22px}}h1 em{{font-style:normal;color:#b7f47b}}h2{{font-size:27px;font-weight:500;margin-bottom:18px}}p{{font-size:18px;color:#9ba7ba;line-height:1.8}}
     .chips{{display:flex;gap:12px;margin-top:30px}}.chips span{{border:1px solid #374739;padding:10px 15px;border-radius:30px;font-size:14px;color:#d8e8ce}}
     .tiles{{display:grid;grid-template-columns:1fr 1fr;gap:15px;transform:rotate(-2deg)}}article div{{padding:12px 14px}}.foot{{margin-top:25px}}
-    </style><main><section><div class="topline">THE CODE ANIMATION STYLE LIBRARY</div><h1>Code.<br>Motion.<br><em>341 possibilities.</em></h1><h2>让代码成为你的动画工作室。</h2><p>风格提示词 × 真实参考静帧 × 可安装 Agent Skill</p><div class="chips"><span>Claude Code</span><span>Codex</span><span>Free to share</span></div></section><section class="tiles">{''.join(card(x) for x in ['R1','Z5','B3','R5'])}</section></main><div class="foot"><span>XIAOYECODES / CODE-ANIMATION-PROMPTS</span><span>341 STYLES · 196 STILLS · 10 SERIES</span></div>'''
-    gallery = f'''<!doctype html><meta charset="utf-8"><style>{css}body{{width:1600px;padding:52px 56px}}h1{{font-size:40px;margin:14px 0}}p{{color:#94a0b4;font-size:18px;margin-bottom:30px}}.grid{{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}}.foot{{margin-top:28px}}</style><div class="topline">A SMALL WINDOW INTO 341 STYLES</div><h1>一种内容，许多种表达。</h1><p>以下为素材包自带的真实参考静帧；每张图都能通过编号找到对应提示词。</p><div class="grid">{''.join(card(x) for x in ['B1','B3','C1','Z5','H1','L1','L10','R1','R3','R5','R6','O91'])}</div><div class="foot"><span>REFERENCE STILLS FROM THE INCLUDED LIBRARY</span><span>196 WITH STILLS / 145 TEXT REFERENCES</span></div>'''
+    </style><main><section><div class="topline">THE CODE ANIMATION STYLE LIBRARY</div><h1>Code.<br>Motion.<br><em>{total} possibilities.</em></h1><h2>让代码成为你的动画工作室。</h2><p>风格提示词 × 真实参考静帧 × 可安装 Agent Skill</p><div class="chips"><span>Claude Code</span><span>Codex</span><span>Free to share</span></div></section><section class="tiles">{''.join(card(x) for x in ['R1','Z5','B3','R5'])}</section></main><div class="foot"><span>XIAOYECODES / CODE-ANIMATION-PROMPTS</span><span>{total} STYLES · {with_still} STILLS · {series_count} SERIES</span></div>'''
+    gallery = f'''<!doctype html><meta charset="utf-8"><style>{css}body{{width:1600px;padding:52px 56px}}h1{{font-size:40px;margin:14px 0}}p{{color:#94a0b4;font-size:18px;margin-bottom:30px}}.grid{{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}}.foot{{margin-top:28px}}</style><div class="topline">A SMALL WINDOW INTO {total} STYLES</div><h1>一种内容，许多种表达。</h1><p>以下为素材包自带的真实参考静帧；每张图都能通过编号找到对应提示词。</p><div class="grid">{''.join(card(x) for x in ['B1','B3','C1','Z5','H1','L1','L10','R1','R3','R5','R6','O91'])}</div><div class="foot"><span>REFERENCE STILLS FROM THE INCLUDED LIBRARY</span><span>{with_still} WITH STILLS / {text_only} TEXT REFERENCES</span></div>'''
     with sync_playwright() as pw:
-        browser = pw.chromium.launch(headless=True)
+        browser = pw.chromium.launch(headless=True, channel=args.browser_channel)
         page = browser.new_page(viewport={"width":1600,"height":1000}, device_scale_factor=1)
         for name, content in [("hero", hero), ("style-gallery", gallery)]:
             path = BUILD / f"{name}.html"
-            path.write_text(content, encoding="utf-8")
+            path.write_text(content, encoding="utf-8", newline="\n")
             page.goto(path.as_uri())
             page.evaluate("document.fonts.ready")
             page.locator("img").evaluate_all("imgs => Promise.all(imgs.map(i => i.decode()))")
@@ -49,6 +59,9 @@ def main():
         page.wait_for_timeout(500)
         page.screenshot(path=str(OUT / "picker-search.png"))
         browser.close()
+    if args.skip_video:
+        print(f"README PNGs rendered: {total} styles, {with_still} stills, {text_only} text references.")
+        return
     subprocess.run([
         "ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-ss", "3", "-t", "4",
         "-i", str(SKILL / "assets/library/示例/B6_光速穿梭·爆炸·重聚_同一份提示词/Opus5.5_High.mp4"),

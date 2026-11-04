@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "baseline_commit": "69ccbeaf0b821591a40936572c2f559d8f4cfb68",
+  "contributions": {
+    "pr-1": {
+      "author": "Strange Leo (@strangeyu911-tech)",
+      "url": "https://github.com/XiaoyeCodes/code-animation-prompts/pull/1",
+      "commit": "b8e54537a39154126d5be43c3dd43c2b02d4fc61",
+      "description": "K1/K2/K3 社区补充参考说明卡；作者说明由 SVG 渲染，提交只包含 JPEG，未提供 SVG 源文件。"
+    }
+  },
+  "modified": {
+    "_统计.json": {
+      "original_sha256": "8902bdf277a34c7722b01e5bb066dd7439ca08617e1f230804d6d02a08cea973",
+      "sha256": "2136719bfbb16b2c3f1ad122b1ebf9fca215497da468786e1a604a7e9191085e",
+      "contribution": "pr-1",
+      "reason": "将当前静帧数从 193 更新为 196。"
+    },
+    "风格挑选.html": {
+      "original_sha256": "2175fec5e551814947fad965866747ec0527dd62bb4730bf2fc4fec7360e8490",
+      "sha256": "551c6569366596b7dad3c392f35273f8d30963bf38569c9ebf5b8548654dd324",
+      "contribution": "pr-1",
+      "reason": "为 K1、K2、K3 补充参考图路径；其余挑选器内容不变。"
+    }
+  },
+  "added": {
+    "风格提示词/K_卡通画风/K1_扁平矢量.jpg": {
+      "sha256": "7ebf11524fdbc041d5e066eeac6256e6bce5764b1a6fccadc047564a4d826a62",
+      "contribution": "pr-1",
+      "reason": "社区新增风格参考说明卡，非原素材包自带静帧。"
+    },
+    "风格提示词/K_卡通画风/K2_Q 版.jpg": {
+      "sha256": "3ea414e0a4888e2f6dd0598e4ca7b857816261157aabd3092ba0fa45d1c2bc4f",
+      "contribution": "pr-1",
+      "reason": "社区新增风格参考说明卡，非原素材包自带静帧。"
+    },
+    "风格提示词/K_卡通画风/K3_卡哇伊.jpg": {
+      "sha256": "1b38796d9dd6b6da4ac762bb4cab378622d6e4a8bb3e34406a5a5b4498f7e499",
+      "contribution": "pr-1",
+      "reason": "社区新增风格参考说明卡，非原素材包自带静帧。"
+    }
+  }
+}

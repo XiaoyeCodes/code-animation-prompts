@@ -38,7 +38,7 @@
 
 | 组成 | 你可以用它做什么 |
 |---|---|
-| **完整原始素材库** | 阅读 341 份 Markdown 提示词，查看静帧、参考实现与原始示例 |
+| **素材库与社区补充** | 阅读 341 份 Markdown 提示词，查看静帧、参考实现与原始示例 |
 | **离线风格挑选器** | 搜索、按类别筛选、放大图片、勾选风格、导出已选清单 |
 | **可安装 Agent Skill** | 让 Claude Code／Codex 按需读取风格，规划镜头并制作代码动画 |
 | **轻量检索脚本** | 按编号、关键词、系列查找；不必把整个素材库塞进上下文 |
@@ -170,7 +170,7 @@ skills/code-animation-prompts/assets/library/风格挑选.html
 | X · code-video | 31 | 代码视频风格 |
 | R · 照参考学来的 | 7 | 用代码呈现的赛博朋克等视觉参考 |
 | O · 奥斯卡 98 部 | 98 | 按原素材整理的电影画风参考 |
-| **合计** | **341** | **193 张静帧 + 148 份文字参考** |
+| **合计** | **341** | **196 张静帧 + 145 份文字参考** |
 
 → [打开完整风格索引，每个条目均可点击](docs/STYLES.md)
 
@@ -200,7 +200,7 @@ code-animation-prompts/
 │   ├── INSTALL.md                   # 安装位置、项目安装、更新方式
 │   ├── STYLES.md                    # 341 个可点击条目
 │   ├── images/                      # 封面、风格墙、真实项目截图、动图
-│   └── source-manifest.json         # 原始 555 个文件的 SHA-256 清单
+│   └── source-manifest.json         # 原始 555 个文件的固定 SHA-256 基线
 ├── scripts/                         # 安装、索引生成、预览图生成、校验
 └── skills/code-animation-prompts/
     ├── SKILL.md                     # 技能入口
@@ -209,7 +209,7 @@ code-animation-prompts/
     ├── scripts/                     # 检索与视频导出
     └── assets/
         ├── starter/index.html       # 新增的确定性动画接口示例
-        └── library/                 # 完整原始「代码动画」文件夹
+        └── library/                 # 原始素材与登记过的社区补充
             ├── 风格挑选.html
             ├── 风格提示词/
             ├── 示例/
@@ -223,7 +223,9 @@ code-animation-prompts/
 
 感谢原素材整理者——哔哩哔哩 [**俯仰观照**](https://space.bilibili.com/3690990015613855/?spm_id_from=333.788.upinfo.detail.click) 的资源分享。
 
-同时感谢 **LemoLab（Lemo-Opuscar）**、**Vincentwei1021（mg-styles-15）**、**Bae-ChangHyun（code-video）**。XiaoyeCodes 在原素材基础上增加技能封装、工具脚本和项目文档；原始素材与许可完整保留。
+感谢 [**Strange Leo (@strangeyu911-tech)**](https://github.com/strangeyu911-tech) 通过 [PR #1](https://github.com/XiaoyeCodes/code-animation-prompts/pull/1) 补充 K1–K3 三张参考说明卡。当前 196 张参考图由原包的 193 张与社区补充的 3 张组成；[来源与改动记录](skills/code-animation-prompts/references/attribution.md) 随技能一起安装。
+
+同时感谢 **LemoLab（Lemo-Opuscar）**、**Vincentwei1021（mg-styles-15）**、**Bae-ChangHyun（code-video）**。XiaoyeCodes 在原素材基础上增加技能封装、工具脚本和项目文档；原始提示词、示例和许可保留；挑选器、统计的改动与新增素材另有记录。
 
 **免费使用，免费分享；请勿把这个合集包装成付费课程、付费 skills 或其他收费内容出售。** 第三方内容继续适用其各自许可，详见 [来源与许可](LICENSE.md)。本仓库没有把所有素材重新声明为 MIT。
 
@@ -233,6 +235,6 @@ code-animation-prompts/
 
 **选一种风格，写下你的故事，让代码动起来。**
 
-如果这个项目对你有帮助，欢迎 Star，也欢迎分享你的代码动画作品。
+如果这个项目对你有帮助，欢迎 Star，也欢迎分享你的代码动画作品。补图前请阅读 [投稿规范](CONTRIBUTING.md)。
 
 </div>
