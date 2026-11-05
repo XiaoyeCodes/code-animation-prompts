@@ -238,3 +238,14 @@ code-animation-prompts/
 如果这个项目对你有帮助，欢迎 Star，也欢迎分享你的代码动画作品。补图前请阅读 [投稿规范](CONTRIBUTING.md)。
 
 </div>
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=XiaoyeCodes%2Fcode-animation-prompts&amp;type=date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=XiaoyeCodes/code-animation-prompts&amp;type=Date&amp;theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=XiaoyeCodes/code-animation-prompts&amp;type=Date" />
+    <img alt="Star History Chart for XiaoyeCodes/code-animation-prompts" src="https://api.star-history.com/svg?repos=XiaoyeCodes/code-animation-prompts&amp;type=Date" width="100%" />
+  </picture>
+</a>
+
