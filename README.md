@@ -13,7 +13,7 @@
 [![Skill](https://img.shields.io/badge/Agent_Skill-Claude_Code_%26_Codex-e6ceaa?style=flat-square&labelColor=161d28)](skills/code-animation-prompts/SKILL.md)
 [![Sharing](https://img.shields.io/badge/sharing-free-ecb7cc?style=flat-square&labelColor=161d28)](LICENSE.md)
 
-[浏览全部风格](docs/STYLES.md) · [一键导入](#一键导入claude-code--codex) · [手动安装](docs/INSTALL.md) · [原始示例](skills/code-animation-prompts/assets/library/示例) · [来源与许可](LICENSE.md)
+[浏览全部风格](docs/STYLES.md) · [一键导入](#一键导入claude-code--codex) · [手动安装](docs/INSTALL.md) · [原始示例](skills/code-animation-prompts/assets/library/示例) · [来源与许可](LICENSE.md) · [한국어](README.ko.md)
 
 </div>
 

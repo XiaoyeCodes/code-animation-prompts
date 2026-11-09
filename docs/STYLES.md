@@ -2,7 +2,7 @@
 
 从离线挑选器生成。点击名称阅读提示词；196 个条目附静帧，其余为文字参考。
 
-[返回 README](../README.md)
+[返回 README](../README.md) · [한국어](STYLES.ko.md)
 
 ## A–G 代码样片 · 26
 

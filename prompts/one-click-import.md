@@ -1,5 +1,7 @@
 # 一键导入提示词
 
+[한국어](one-click-import.ko.md)
+
 复制下面整段到有本地文件与终端权限的 Claude Code 或 Codex。
 
 ```text

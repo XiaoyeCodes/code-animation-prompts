@@ -1,5 +1,7 @@
 # 安装到 Claude Code / Codex
 
+[한국어](INSTALL.ko.md)
+
 本仓库针对有本地文件和终端能力的 Claude Code 与 Codex。先下载完整仓库（包含原始视频约 75 MiB，另有 README 图片），安装的是 `skills/code-animation-prompts/` 整个目录。
 
 ## 一句话交给助手
